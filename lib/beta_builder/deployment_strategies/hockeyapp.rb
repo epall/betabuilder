@@ -22,7 +22,7 @@ module BetaBuilder
         response = nil
 
         begin
-          system("zip -r #{zipdir}/app.dSYM.zip #{@configuration.built_app_dsym_path}")
+          system("cd #{@configuration.build_dir}/#{@configuration.configuration}-iphoneos && zip -r #{zipdir}/app.dSYM.zip #{@configuration.app_file_name}.dSYM")
 
           payload = {
             :status             => 2,

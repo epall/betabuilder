@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new("> 1.3.1") if s.respond_to? :required_rubygems_version=
   s.authors = ["Luke Redpath"]
-  s.date = "2012-04-18"
+  s.date = "2012-04-19"
   s.email = "luke@lukeredpath.co.uk"
   s.extra_rdoc_files = ["README.md", "LICENSE", "CHANGES.md"]
   s.files = ["CHANGES.md", "LICENSE", "README.md", "lib/beta_builder/archived_build.rb", "lib/beta_builder/build_output_parser.rb", "lib/beta_builder/deployment_strategies/hockeyapp.rb", "lib/beta_builder/deployment_strategies/testflight.rb", "lib/beta_builder/deployment_strategies/web.rb", "lib/beta_builder/deployment_strategies.rb", "lib/beta_builder.rb", "lib/betabuilder.rb"]
